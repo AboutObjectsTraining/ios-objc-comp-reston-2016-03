@@ -1,4 +1,4 @@
-# iOS Development in Objective-C
+# iOS Development in Objective-C: Comprehensive
 
 ## Version
 
@@ -7,7 +7,7 @@
 
 ## Overview
 
-Lab exercise solutions, example projects, and other resources used in the delivery of the iOS Development in Objective-C class.
+Lab exercise solutions, example projects, and other resources used in the delivery of the *iOS Development in Objective-C: Comprehensive* class.
 
 ---
 
