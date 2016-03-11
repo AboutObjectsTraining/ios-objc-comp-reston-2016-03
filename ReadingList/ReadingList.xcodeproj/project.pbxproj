@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABD004101B99D62400DD5D84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD0040F1B99D62400DD5D84 /* main.m */; };
+		ABD004131B99D62400DD5D84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD004121B99D62400DD5D84 /* AppDelegate.m */; };
+		ABD004191B99D62400DD5D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD004171B99D62400DD5D84 /* Main.storyboard */; };
+		ABD0041B1B99D62400DD5D84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD0041A1B99D62400DD5D84 /* Images.xcassets */; };
+		ABD0041E1B99D62400DD5D84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD0041C1B99D62400DD5D84 /* LaunchScreen.xib */; };
+		ABD004351B99F90800DD5D84 /* RELReadingListController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD004341B99F90800DD5D84 /* RELReadingListController.m */; };
+		ABD004521B9A187A00DD5D84 /* Author.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD004381B9A187A00DD5D84 /* Author.m */; };
+		ABD004531B9A187A00DD5D84 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD0043A1B9A187A00DD5D84 /* Book.m */; };
+		ABD004541B9A187A00DD5D84 /* BooksAndAuthors.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABD0043B1B9A187A00DD5D84 /* BooksAndAuthors.plist */; };
+		ABD004551B9A187A00DD5D84 /* Austen.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD0043D1B9A187A00DD5D84 /* Austen.png */; };
+		ABD004561B9A187A00DD5D84 /* Bacon.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD0043E1B9A187A00DD5D84 /* Bacon.png */; };
+		ABD004571B9A187A00DD5D84 /* Carroll.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD0043F1B9A187A00DD5D84 /* Carroll.png */; };
+		ABD004581B9A187A00DD5D84 /* DefaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD004401B9A187A00DD5D84 /* DefaultImage.png */; };
+		ABD004591B9A187A00DD5D84 /* Dostoevsky.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD004411B9A187A00DD5D84 /* Dostoevsky.png */; };
+		ABD0045A1B9A187A00DD5D84 /* Eliot.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD004421B9A187A00DD5D84 /* Eliot.png */; };
+		ABD0045B1B9A187A00DD5D84 /* Emerson.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD004431B9A187A00DD5D84 /* Emerson.png */; };
+		ABD0045C1B9A187A00DD5D84 /* Hemingway.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD004441B9A187A00DD5D84 /* Hemingway.png */; };
+		ABD0045D1B9A187A00DD5D84 /* Milne.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD004451B9A187A00DD5D84 /* Milne.png */; };
+		ABD0045E1B9A187A00DD5D84 /* More.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD004461B9A187A00DD5D84 /* More.png */; };
+		ABD0045F1B9A187A00DD5D84 /* Newton.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD004471B9A187A00DD5D84 /* Newton.png */; };
+		ABD004601B9A187A00DD5D84 /* Shakespeare.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD004481B9A187A00DD5D84 /* Shakespeare.png */; };
+		ABD004611B9A187A00DD5D84 /* Thoreau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABD004491B9A187A00DD5D84 /* Thoreau.jpg */; };
+		ABD004621B9A187A00DD5D84 /* Tolstoy.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD0044A1B9A187A00DD5D84 /* Tolstoy.png */; };
+		ABD004631B9A187A00DD5D84 /* Twain.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD0044B1B9A187A00DD5D84 /* Twain.png */; };
+		ABD004641B9A187A00DD5D84 /* Wells.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD0044C1B9A187A00DD5D84 /* Wells.png */; };
+		ABD004651B9A187A00DD5D84 /* Whitman.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD0044D1B9A187A00DD5D84 /* Whitman.png */; };
+		ABD004661B9A187A00DD5D84 /* ModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD0044F1B9A187A00DD5D84 /* ModelObject.m */; };
+		ABD004671B9A187A00DD5D84 /* ReadingList.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD004511B9A187A00DD5D84 /* ReadingList.m */; };
+		ABD0046A1B9A243500DD5D84 /* ReadingListStore.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD004691B9A243500DD5D84 /* ReadingListStore.m */; };
+		ABD004721B9A34A900DD5D84 /* RELViewBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD004711B9A34A900DD5D84 /* RELViewBookController.m */; };
+		ABD004751B9A38E900DD5D84 /* RELEditBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD004741B9A38E900DD5D84 /* RELEditBookController.m */; };
+		ABD004781B9A472F00DD5D84 /* RELAddBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD004771B9A472F00DD5D84 /* RELAddBookController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABD0040A1B99D62400DD5D84 /* ReadingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD0040E1B99D62400DD5D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD0040F1B99D62400DD5D84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABD004111B99D62400DD5D84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABD004121B99D62400DD5D84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABD004181B99D62400DD5D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABD0041A1B99D62400DD5D84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABD0041D1B99D62400DD5D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ABD004331B99F90800DD5D84 /* RELReadingListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RELReadingListController.h; sourceTree = "<group>"; };
+		ABD004341B99F90800DD5D84 /* RELReadingListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RELReadingListController.m; sourceTree = "<group>"; };
+		ABD004371B9A187A00DD5D84 /* Author.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Author.h; sourceTree = "<group>"; };
+		ABD004381B9A187A00DD5D84 /* Author.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Author.m; sourceTree = "<group>"; };
+		ABD004391B9A187A00DD5D84 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		ABD0043A1B9A187A00DD5D84 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		ABD0043B1B9A187A00DD5D84 /* BooksAndAuthors.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = BooksAndAuthors.plist; sourceTree = "<group>"; };
+		ABD0043D1B9A187A00DD5D84 /* Austen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Austen.png; sourceTree = "<group>"; };
+		ABD0043E1B9A187A00DD5D84 /* Bacon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bacon.png; sourceTree = "<group>"; };
+		ABD0043F1B9A187A00DD5D84 /* Carroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carroll.png; sourceTree = "<group>"; };
+		ABD004401B9A187A00DD5D84 /* DefaultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DefaultImage.png; sourceTree = "<group>"; };
+		ABD004411B9A187A00DD5D84 /* Dostoevsky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dostoevsky.png; sourceTree = "<group>"; };
+		ABD004421B9A187A00DD5D84 /* Eliot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eliot.png; sourceTree = "<group>"; };
+		ABD004431B9A187A00DD5D84 /* Emerson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Emerson.png; sourceTree = "<group>"; };
+		ABD004441B9A187A00DD5D84 /* Hemingway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hemingway.png; sourceTree = "<group>"; };
+		ABD004451B9A187A00DD5D84 /* Milne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Milne.png; sourceTree = "<group>"; };
+		ABD004461B9A187A00DD5D84 /* More.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = More.png; sourceTree = "<group>"; };
+		ABD004471B9A187A00DD5D84 /* Newton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Newton.png; sourceTree = "<group>"; };
+		ABD004481B9A187A00DD5D84 /* Shakespeare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shakespeare.png; sourceTree = "<group>"; };
+		ABD004491B9A187A00DD5D84 /* Thoreau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thoreau.jpg; sourceTree = "<group>"; };
+		ABD0044A1B9A187A00DD5D84 /* Tolstoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tolstoy.png; sourceTree = "<group>"; };
+		ABD0044B1B9A187A00DD5D84 /* Twain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twain.png; sourceTree = "<group>"; };
+		ABD0044C1B9A187A00DD5D84 /* Wells.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wells.png; sourceTree = "<group>"; };
+		ABD0044D1B9A187A00DD5D84 /* Whitman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Whitman.png; sourceTree = "<group>"; };
+		ABD0044E1B9A187A00DD5D84 /* ModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelObject.h; sourceTree = "<group>"; };
+		ABD0044F1B9A187A00DD5D84 /* ModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelObject.m; sourceTree = "<group>"; };
+		ABD004501B9A187A00DD5D84 /* ReadingList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingList.h; sourceTree = "<group>"; };
+		ABD004511B9A187A00DD5D84 /* ReadingList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadingList.m; sourceTree = "<group>"; };
+		ABD004681B9A243500DD5D84 /* ReadingListStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingListStore.h; sourceTree = "<group>"; };
+		ABD004691B9A243500DD5D84 /* ReadingListStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadingListStore.m; sourceTree = "<group>"; };
+		ABD004701B9A34A900DD5D84 /* RELViewBookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RELViewBookController.h; sourceTree = "<group>"; };
+		ABD004711B9A34A900DD5D84 /* RELViewBookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RELViewBookController.m; sourceTree = "<group>"; };
+		ABD004731B9A38E900DD5D84 /* RELEditBookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RELEditBookController.h; sourceTree = "<group>"; };
+		ABD004741B9A38E900DD5D84 /* RELEditBookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RELEditBookController.m; sourceTree = "<group>"; };
+		ABD004761B9A472F00DD5D84 /* RELAddBookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RELAddBookController.h; sourceTree = "<group>"; };
+		ABD004771B9A472F00DD5D84 /* RELAddBookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RELAddBookController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABD004071B99D62400DD5D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABD004011B99D62400DD5D84 = {
+			isa = PBXGroup;
+			children = (
+				ABD004361B9A187A00DD5D84 /* ReadingListModel */,
+				ABD0040C1B99D62400DD5D84 /* ReadingList */,
+				ABD0040B1B99D62400DD5D84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABD0040B1B99D62400DD5D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0040A1B99D62400DD5D84 /* ReadingList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABD0040C1B99D62400DD5D84 /* ReadingList */ = {
+			isa = PBXGroup;
+			children = (
+				ABD004111B99D62400DD5D84 /* AppDelegate.h */,
+				ABD004121B99D62400DD5D84 /* AppDelegate.m */,
+				ABD004331B99F90800DD5D84 /* RELReadingListController.h */,
+				ABD004341B99F90800DD5D84 /* RELReadingListController.m */,
+				ABD004701B9A34A900DD5D84 /* RELViewBookController.h */,
+				ABD004711B9A34A900DD5D84 /* RELViewBookController.m */,
+				ABD004731B9A38E900DD5D84 /* RELEditBookController.h */,
+				ABD004741B9A38E900DD5D84 /* RELEditBookController.m */,
+				ABD004761B9A472F00DD5D84 /* RELAddBookController.h */,
+				ABD004771B9A472F00DD5D84 /* RELAddBookController.m */,
+				ABD004171B99D62400DD5D84 /* Main.storyboard */,
+				ABD0041A1B99D62400DD5D84 /* Images.xcassets */,
+				ABD0041C1B99D62400DD5D84 /* LaunchScreen.xib */,
+				ABD0040D1B99D62400DD5D84 /* Supporting Files */,
+			);
+			path = ReadingList;
+			sourceTree = "<group>";
+		};
+		ABD0040D1B99D62400DD5D84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0040E1B99D62400DD5D84 /* Info.plist */,
+				ABD0040F1B99D62400DD5D84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABD004361B9A187A00DD5D84 /* ReadingListModel */ = {
+			isa = PBXGroup;
+			children = (
+				ABD004371B9A187A00DD5D84 /* Author.h */,
+				ABD004381B9A187A00DD5D84 /* Author.m */,
+				ABD004391B9A187A00DD5D84 /* Book.h */,
+				ABD0043A1B9A187A00DD5D84 /* Book.m */,
+				ABD0043B1B9A187A00DD5D84 /* BooksAndAuthors.plist */,
+				ABD0043C1B9A187A00DD5D84 /* Images */,
+				ABD0044E1B9A187A00DD5D84 /* ModelObject.h */,
+				ABD0044F1B9A187A00DD5D84 /* ModelObject.m */,
+				ABD004501B9A187A00DD5D84 /* ReadingList.h */,
+				ABD004511B9A187A00DD5D84 /* ReadingList.m */,
+				ABD004681B9A243500DD5D84 /* ReadingListStore.h */,
+				ABD004691B9A243500DD5D84 /* ReadingListStore.m */,
+			);
+			path = ReadingListModel;
+			sourceTree = "<group>";
+		};
+		ABD0043C1B9A187A00DD5D84 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0043D1B9A187A00DD5D84 /* Austen.png */,
+				ABD0043E1B9A187A00DD5D84 /* Bacon.png */,
+				ABD0043F1B9A187A00DD5D84 /* Carroll.png */,
+				ABD004401B9A187A00DD5D84 /* DefaultImage.png */,
+				ABD004411B9A187A00DD5D84 /* Dostoevsky.png */,
+				ABD004421B9A187A00DD5D84 /* Eliot.png */,
+				ABD004431B9A187A00DD5D84 /* Emerson.png */,
+				ABD004441B9A187A00DD5D84 /* Hemingway.png */,
+				ABD004451B9A187A00DD5D84 /* Milne.png */,
+				ABD004461B9A187A00DD5D84 /* More.png */,
+				ABD004471B9A187A00DD5D84 /* Newton.png */,
+				ABD004481B9A187A00DD5D84 /* Shakespeare.png */,
+				ABD004491B9A187A00DD5D84 /* Thoreau.jpg */,
+				ABD0044A1B9A187A00DD5D84 /* Tolstoy.png */,
+				ABD0044B1B9A187A00DD5D84 /* Twain.png */,
+				ABD0044C1B9A187A00DD5D84 /* Wells.png */,
+				ABD0044D1B9A187A00DD5D84 /* Whitman.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABD004091B99D62400DD5D84 /* ReadingList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD0042D1B99D62400DD5D84 /* Build configuration list for PBXNativeTarget "ReadingList" */;
+			buildPhases = (
+				ABD004061B99D62400DD5D84 /* Sources */,
+				ABD004071B99D62400DD5D84 /* Frameworks */,
+				ABD004081B99D62400DD5D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadingList;
+			productName = ReadingList;
+			productReference = ABD0040A1B99D62400DD5D84 /* ReadingList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABD004021B99D62400DD5D84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "About Objects";
+				TargetAttributes = {
+					ABD004091B99D62400DD5D84 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = ABD004051B99D62400DD5D84 /* Build configuration list for PBXProject "ReadingList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABD004011B99D62400DD5D84;
+			productRefGroup = ABD0040B1B99D62400DD5D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABD004091B99D62400DD5D84 /* ReadingList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABD004081B99D62400DD5D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD004551B9A187A00DD5D84 /* Austen.png in Resources */,
+				ABD0045C1B9A187A00DD5D84 /* Hemingway.png in Resources */,
+				ABD0045E1B9A187A00DD5D84 /* More.png in Resources */,
+				ABD004561B9A187A00DD5D84 /* Bacon.png in Resources */,
+				ABD004571B9A187A00DD5D84 /* Carroll.png in Resources */,
+				ABD004581B9A187A00DD5D84 /* DefaultImage.png in Resources */,
+				ABD004191B99D62400DD5D84 /* Main.storyboard in Resources */,
+				ABD0041E1B99D62400DD5D84 /* LaunchScreen.xib in Resources */,
+				ABD0045F1B9A187A00DD5D84 /* Newton.png in Resources */,
+				ABD004611B9A187A00DD5D84 /* Thoreau.jpg in Resources */,
+				ABD004591B9A187A00DD5D84 /* Dostoevsky.png in Resources */,
+				ABD004631B9A187A00DD5D84 /* Twain.png in Resources */,
+				ABD004541B9A187A00DD5D84 /* BooksAndAuthors.plist in Resources */,
+				ABD0041B1B99D62400DD5D84 /* Images.xcassets in Resources */,
+				ABD0045D1B9A187A00DD5D84 /* Milne.png in Resources */,
+				ABD0045B1B9A187A00DD5D84 /* Emerson.png in Resources */,
+				ABD004601B9A187A00DD5D84 /* Shakespeare.png in Resources */,
+				ABD004651B9A187A00DD5D84 /* Whitman.png in Resources */,
+				ABD004621B9A187A00DD5D84 /* Tolstoy.png in Resources */,
+				ABD0045A1B9A187A00DD5D84 /* Eliot.png in Resources */,
+				ABD004641B9A187A00DD5D84 /* Wells.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABD004061B99D62400DD5D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD0046A1B9A243500DD5D84 /* ReadingListStore.m in Sources */,
+				ABD004781B9A472F00DD5D84 /* RELAddBookController.m in Sources */,
+				ABD004661B9A187A00DD5D84 /* ModelObject.m in Sources */,
+				ABD004531B9A187A00DD5D84 /* Book.m in Sources */,
+				ABD004131B99D62400DD5D84 /* AppDelegate.m in Sources */,
+				ABD004751B9A38E900DD5D84 /* RELEditBookController.m in Sources */,
+				ABD004721B9A34A900DD5D84 /* RELViewBookController.m in Sources */,
+				ABD004351B99F90800DD5D84 /* RELReadingListController.m in Sources */,
+				ABD004671B9A187A00DD5D84 /* ReadingList.m in Sources */,
+				ABD004521B9A187A00DD5D84 /* Author.m in Sources */,
+				ABD004101B99D62400DD5D84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABD004171B99D62400DD5D84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD004181B99D62400DD5D84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABD0041C1B99D62400DD5D84 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD0041D1B99D62400DD5D84 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABD0042B1B99D62400DD5D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABD0042C1B99D62400DD5D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABD0042E1B99D62400DD5D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReadingList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aboutobjects.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABD0042F1B99D62400DD5D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReadingList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aboutobjects.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABD004051B99D62400DD5D84 /* Build configuration list for PBXProject "ReadingList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD0042B1B99D62400DD5D84 /* Debug */,
+				ABD0042C1B99D62400DD5D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD0042D1B99D62400DD5D84 /* Build configuration list for PBXNativeTarget "ReadingList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD0042E1B99D62400DD5D84 /* Debug */,
+				ABD0042F1B99D62400DD5D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABD004021B99D62400DD5D84 /* Project object */;
+}
