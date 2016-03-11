@@ -15,20 +15,22 @@
     [super tearDown];
 }
 
-- (void)testPart01
-{
-    Person *fred = [[Person alloc] init];
-    [fred setFirstName:@"Fred"];
-    [fred setLastName:@"Smith"];
-    [fred setAge:32];
-    
-    NSLog(@"\nfirst name: %@"
-          @"\nlast name: %@"
-          @"\nage: %d",
-          [fred firstName],
-          [fred lastName],
-          [fred age]);
-}
+//- (void)testPart01
+//{
+//    Person *fred = [[Person alloc] init];
+//    [fred setFirstName:@"Fred"];
+//    [fred setLastName:@"Smith"];
+//    [fred setAge:32];
+//    
+//    Person *copyOfFred = [fred copy];
+//    
+//    NSLog(@"\nfirst name: %@"
+//          @"\nlast name: %@"
+//          @"\nage: %d",
+//          [copyOfFred firstName],
+//          [fred lastName],
+//          [fred age]);
+//}
 
 - (void)testPart02
 {
